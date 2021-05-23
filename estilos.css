@@ -58,7 +58,7 @@ vertical-align: top;
   }
 }
 /*header*/
-.header {
+.header{
 width: 100%;
 height: 600px;
 background: linear-gradient(to bottom,
@@ -68,8 +68,7 @@ rgba(7,109,150,.45),
 url(img/fondo.jpg);
 background-attachment: fixed;
 background-position: center ; 
-background-size:cover; 
-);
+background-size:cover;)
 }
 
 .nav{
@@ -100,7 +99,7 @@ overflow: hidden;
 }
 
 
-nav. enlaces a{
+nav.enlaces a{
 display: inline-block;
 padding: 5px;
 margin-right: 17px;
@@ -111,11 +110,11 @@ border-bottom: 3px solid transparent;
 color:inherit;
 }
 
-nav .enlaces a:{
+.nav.enlaces a:{
 border-bottom: 1px solid #141414 ;
 transition: 0.6s;
 }
-.logo, .logo img{ height:80px ;}
+.logo img{ height:80px ;}
 
 .icono{
   display:none;
@@ -196,10 +195,12 @@ flex-wrap: wrap;
 width: 100%;
 padding: var(--espacios)0;
 }
+
 .about{
 background: url(img/teclado.jpg);
 height: auto;
 }
+
 
 .servicios{
 display:flex;
@@ -207,20 +208,22 @@ color:#fff;
 justify-content: space-between;
 margin:auto;
 flex-wrap: wrap;
-
 }
+
 
 .caja-servicios>h4{
 margin-bottom: var(--espacios);
 }
+
 
 .caja-servicios>p{
 text-align: center;
 }
 .botones-work{
   overflow: hidden;
-
 }
+
+
 .botones-work li{
 display: inline-block;
 text-align: center;
@@ -232,20 +235,27 @@ list-style: none;
 color:var(--color1);
 }
 
+
 .botones-work li:hover{
  background: var(--color1);
 color:#fff;
 cursor:pointer;
 }
+
+
 .botones-work .active{
 background: var(--color1);
 color:#fff;
 }
+
+
 .galeria-work{
 display: flex;
 flex-wrap:wrap;
 justify-content: space-around;
 }
+
+
 .galeria-work .cont-work{
 width: 31%;
 box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
@@ -253,19 +263,24 @@ height: 300px;
 overflow:hidden;
 margin-bottom: var(--espacios-contenido);
 }
+
+
 .img-work{
 height: 90%;
 width:100%
 }
+
+
 .img-work img{
  height: 100%;
  width:100%;
  object-fit: cover;
 }
+
 .textos-work{
  height: 10%;
-
 }
+
 .textos-work h4{
 line-height: 30px;
 font-weight:300px;
@@ -280,8 +295,9 @@ margin-bottom: var(--espacios);
 }
 .marca-logo img{
   width:100%;
-  
+
 }
+
 .iconos{
 display:flex;
   margin:auto;
@@ -296,6 +312,7 @@ color:rgb(245, 170, 170);
 margin-bottom: var(--espacios);
 display: infinite-block;
 }
+
 .footer p{
  margin-top: var(--espacios);
 
