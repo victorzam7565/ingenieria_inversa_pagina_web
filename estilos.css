@@ -2,7 +2,7 @@
   --color1: rgb(219, 144, 0.5);
   --color2: rgba(23, 180, 83, 0.0788);
   --color3: rgba(11, 194, 211, 0.623);
-  --fondo:#f8faf3;
+  --fondo:#afd158;
   --titulos: 33px;
   --margenes:60px
   --espacios:10px;
@@ -58,17 +58,17 @@ vertical-align: top;
   }
 }
 /*header*/
-.header{
+.header {
 width: 100%;
 height: 600px;
 background: linear-gradient(to bottom,
 rgba(211,135,20,.664),
 rgba(29,241,171,.6),
 rgba(7,109,150,.45),
-url(img/fondo.jpg);
-background-attachment: fixed;
-background-position: center ; 
-background-size:cover;)
+url(img/fondo.jpg),
+background-attachment fixed,
+background-position center , 
+background-size cover,)
 }
 
 .nav{
@@ -110,7 +110,7 @@ border-bottom: 3px solid transparent;
 color:inherit;
 }
 
-.nav.enlaces a:{
+.nav.enlaces a{
 border-bottom: 1px solid #141414 ;
 transition: 0.6s;
 }
@@ -176,10 +176,10 @@ justify-content: space-around;
 flex-wrap: wrap;
 }
 .content-card{
- widt:31%;
+ width:31%;
  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
  overflow: hidden;
- heigth:400px;
+ height:400px;
 }
 
 .people{
