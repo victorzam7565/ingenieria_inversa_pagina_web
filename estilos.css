@@ -80,7 +80,7 @@ box-shadow: 0 0 10px 0 rgba(0,0,0,.5)
 .nav1{
 background:transparent ;
 height: 80px;
-color:#fff;
+color:rgb(247, 181, 181);
 }
 .nav2{
 background: var(--fondo);
@@ -154,5 +154,149 @@ font-size: var(--titulos);
 color :var var(--color2);
 margin-bottom: var(--espacios);
 }
+.contenedor p{
+font-size: var(--subttitulos);
+font-weight: 300;
+color: var(--color1);
+}
 
+.after::after{
+content:"";
+display:block;
+margin:auto;
+margin-top: var(--espacios);
+width:100px;
+height: 2px;
+background: var(--color1);
+margin-bottom: var(--espacios-contenido);
+}
 
+.card{
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.content-card{
+ widt:31%;
+ box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+ overflow: hidden;
+ heigth:400px;
+}
+
+.people{
+ height: 80%;
+}
+.content-card img{
+ width: 100%;
+ height: 100%;
+ object-fit:cover;
+}
+.texto-team{
+ height: 20%;
+width: 100%;
+padding: var(--espacios)0;
+}
+.about{
+background: url(img/teclado.jpg);
+height: auto;
+}
+
+.servicios{
+display:flex;
+color:#fff;
+justify-content: space-between;
+margin:auto;
+flex-wrap: wrap;
+
+}
+
+.caja-servicios>h4{
+margin-bottom: var(--espacios);
+}
+
+.caja-servicios>p{
+text-align: center;
+}
+.botones-work{
+  overflow: hidden;
+
+}
+.botones-work li{
+display: inline-block;
+text-align: center;
+margin-left: var(--espacios);
+margin-bottom: var(--espacios-contenido);
+padding: 6px 12px;
+border: 1px solid var(--color1);
+list-style: none;
+color:var(--color1);
+}
+
+.botones-work li:hover{
+ background: var(--color1);
+color:#fff;
+cursor:pointer;
+}
+.botones-work .active{
+background: var(--color1);
+color:#fff;
+}
+.galeria-work{
+display: flex;
+flex-wrap:wrap;
+justify-content: space-around;
+}
+.galeria-work .cont-work{
+width: 31%;
+box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+height: 300px;
+overflow:hidden;
+margin-bottom: var(--espacios-contenido);
+}
+.img-work{
+height: 90%;
+width:100%
+}
+.img-work img{
+ height: 100%;
+ width:100%;
+ object-fit: cover;
+}
+.textos-work{
+ height: 10%;
+
+}
+.textos-work h4{
+line-height: 30px;
+font-weight:300px;
+}
+
+.footer{background: url(img/teclado.jpg);}
+
+.marca-logo{
+width: 40px;
+margin:auto;
+margin-bottom: var(--espacios);
+}
+.marca-logo img{
+  width:100%;
+  
+}
+.iconos{
+display:flex;
+  margin:auto;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.fab{
+font-size: 60px;
+color:rgb(245, 170, 170);
+margin-bottom: var(--espacios);
+display: infinite-block;
+}
+.footer p{
+ margin-top: var(--espacios);
+
+}
